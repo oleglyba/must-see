@@ -1,0 +1,50 @@
+# === Sensitive / environment ===
+wordpress/wp-config.php
+wordpress/.htaccess
+wordpress/wp-content/debug.log
+*.log
+
+# === WordPress core (never track — overwrite risk on live site) ===
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/wp-*.php
+!wordpress/wp-config-sample.php
+
+# === Uploads & generated files ===
+wordpress/wp-content/uploads/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/upgrade-temp-backup/
+wordpress/wp-content/backup-db/
+wordpress/wp-content/cache/
+wordpress/wp-content/wflogs/
+wordpress/wp-admin
+
+
+# === OS & IDE ===
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+
+# === Composer / Node ===
+vendor/
+node_modules/
+package-lock.json
+yarn.lock
+
+# === WP-CLI ===
+wp-cli.phar
+wp-cli.yml
+
+# === Temp / misc ===
+*.tmp
+*.bak
+*.swp
+*~
+.claude/
+
+# === Cache runtime & config backups ===
+wordpress/wp-config.php.bak*
+wordpress/wp-content/advanced-cache.php
+wordpress/wp-content/wp-cache-config.php

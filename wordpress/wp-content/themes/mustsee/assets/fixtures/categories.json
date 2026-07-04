@@ -1,0 +1,14 @@
+[
+	{ "slug": "no-night", "name": "Без нічних переїздів" },
+	{ "slug": "one-night", "name": "З 1 нічним переїздом" },
+	{ "slug": "weekend", "name": "Тури вихідного дня" },
+	{ "slug": "sea", "name": "Пляжний відпочинок" },
+	{ "slug": "avia", "name": "Авіатури" },
+	{ "slug": "relax", "name": "Релакс тури" },
+	{ "slug": "holidays", "name": "Тури на канікули" },
+	{ "slug": "school", "name": "Для шкільних груп" },
+	{ "slug": "parks", "name": "Тури до парків розваг" },
+	{ "slug": "prom", "name": "Тури на випускний" },
+	{ "slug": "top", "name": "Найпопулярніші тури" },
+	{ "slug": "other", "name": "Інші тури" }
+]
